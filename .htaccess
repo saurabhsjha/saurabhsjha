@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_REFERER} !^http://saurabhsjha.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://saurabhsjha.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.saurabhsjha.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.saurabhsjha.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://saurabhsjha.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://saurabhsjha.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.saurabhsjha.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.saurabhsjha.com$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+

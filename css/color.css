@@ -1,0 +1,55 @@
+/*=============================================
+           Theme text Color
+=============================================*/
+p a:hover,
+a:hover, a:focus, a:active,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input,
+p ins,
+.social-icon li a:hover i,
+.xp-post-meta,
+.xp-post-meta span a:hover,
+.xp-post-meta span a:hover,
+.xp-post-meta span a:hover em,
+.xp-post-meta span a:hover i,
+.xp-post-meta span:after,
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover,
+.xp-tags li a, .category-content h3:hover a{
+    color: #1d8dfa;
+}
+
+
+/*=============================================
+           Theme Background Color
+=============================================*/
+.xp-btn-continuereading:before,
+.xp-btn-continuereading:after,
+.author-img .halfie.top{
+    background-color:#1d8dfa;
+}
+/*=============================================
+           Theme Border Color
+=============================================*/
+.topbar,
+.xp-post, .xp-sidebar .xp-widget,
+.xp-sidebar .xp-widget,
+.xp-widget h4,
+.three-columns-post .xp-post, .comment-form,
+.three-columns-post .portfolio-content .xp-post, .page #content #comment, .page.aboutus .description, .page.contactus .description{
+    border-color: #1d8dfa;
+}
